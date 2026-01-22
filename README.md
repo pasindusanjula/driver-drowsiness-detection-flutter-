@@ -1,16 +1,32 @@
-# drowsiness_app
+# 🚗 Driver Drowsiness Detection App
 
-A new Flutter project.
+A real-time mobile application that detects driver drowsiness using eye-state
+analysis and alerts the driver with an alarm to improve road safety.
 
-## Getting Started
+## 🔥 Features
+- Real-time eye open/closed detection
+- On-device ML inference using TensorFlow Lite
+- Dark / night-friendly UI
+- One-button start driving mode
+- Alarm alert on drowsiness
+- Works offline
 
-This project is a starting point for a Flutter application.
+## 🧠 Machine Learning
+- Dataset: MRL Eye Dataset
+- Model: CNN
+- Input size: 64x64 grayscale images
+- Output: Open / Closed eye classification
+- Converted to TensorFlow Lite
 
-A few resources to get you started if this is your first Flutter project:
+## 📱 Tech Stack
+- Flutter
+- TensorFlow Lite
+- Python
+- Computer Vision
+- Android Camera API
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 👤 Author
+Pasindu Sanjula
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📄 License
+MIT License
